@@ -9,7 +9,7 @@
 
 * {
     box-sizing: border-box;
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 nav {
@@ -133,3 +133,9 @@ footer {
 footer a {
     color: yellow;
 }
+
+@media (max-width: 800px) {
+    #grid-container {
+        grid-template-columns: 1fr;
+    }
+  }
