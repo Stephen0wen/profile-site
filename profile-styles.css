@@ -3,9 +3,9 @@
     height: 100vh;
     width: 100vw;
     color: white;
-    --nav-width: 10rem;
+    --nav-width: 12rem;
     text-align: center;
-    font-size: 15px;
+    font-size: clamp(10px, 1.2vw, 15px);
 }
 
 * {
