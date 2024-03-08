@@ -1,0 +1,79 @@
+:root {
+    background: linear-gradient(60deg,#222, #444);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    --nav-width: 150px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0px solid black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: var(--nav-width);
+    background-color: #225;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    width: 90%;
+    text-align: center;
+}
+
+nav ul li {
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    color: pink;
+}
+
+body {
+    margin-left: var(--nav-width);
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: tahoma;
+}
+
+p, a, li {
+    font-family: sans;
+}
+
+ul, ol {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+#stickman-img {
+    object-fit: contain;
+    background-color: white;
+   
+}
+
+#food-img {
+    object-fit: cover;
+}
