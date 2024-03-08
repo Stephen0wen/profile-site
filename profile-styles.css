@@ -66,6 +66,7 @@ section {
     margin: auto;
     width: 90%;
     max-width: 60rem;
+    margin-bottom: 5rem;
 }
 
 h1, h2 {
@@ -107,5 +108,7 @@ img {
 }
 
 .long-paragraph {
-    columns
+    column-width: 14rem;
+    column-gap: 2rem;
+    text-align: justify;
 }
